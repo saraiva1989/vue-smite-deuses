@@ -8,12 +8,12 @@ defineProps({
 
 <template>
   <div id="topo" class="topo">
-    <div :class="classe"><img src="imagens/smite-logo.webp" alt="" /></div>
+    <div :class="classe"><img src="/imagens/smite-logo.webp" alt="" /></div>
     <div class="search" @click="mostrarPorId()">
-      <img v-if="mostrarPesquisa" src="imagens/search.png" alt="" />
+      <img v-if="mostrarPesquisa" src="/imagens/search.png" alt="" />
     </div>
     <a v-if="!mostrarPesquisa" href="/"
-        ><div class="back"><img src="imagens/back.png" alt="" /></div
+        ><div class="back"><img src="/imagens/back.png" alt="" /></div
       ></a>
   </div>
 </template>
